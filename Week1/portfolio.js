@@ -10,22 +10,22 @@ const num2 = parseInt(prompt("Enter your second number:"));
 if (operation == "+")
 {
     sum = num1 + num2;
-    console.log("The answer of ${num1} + ${num2} is ${sum} ");
+    console.log(`The answer of ${num1} + ${num2} is ${sum} `);
 }
 else if (operation == "-")
 {
     sum = num1 - num2;
-    console.log("The answer of ${num1} - ${num2} is ${sum} ");
+    console.log(`The answer of ${num1} - ${num2} is ${sum} `);
 }
 else if (operation == "*")
 {
     sum = num1 * num2;
-    console.log("The answer of ${num1} * ${num2} is ${sum} ");
+    console.log(`The answer of ${num1} * ${num2} is ${sum} `);
 }
 else
 {
     sum = num1 / num2;
-    console.log("The answer of ${num1} / ${num2} is ${sum} ");
+    console.log(`The answer of ${num1} / ${num2} is ${sum} `);
 }
 
 
